@@ -1,0 +1,4 @@
+---
+k14_app: metallb
+k14_helm_repo: https://github.com/bitnami/charts
+k14_helm_path: bitnami/metallb
