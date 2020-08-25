@@ -1,0 +1,6 @@
+#@ load("@ytt:overlay", "overlay")
+
+#@overlay/match by=overlay.map_key("kind"),expects="0+"
+#@overlay/remove
+---
+kind: Secret

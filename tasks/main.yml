@@ -1,4 +1,5 @@
 ---
-- name: Include k14
+- name: Metallb
   include_role:
       name: k14
+  tags: metallb
