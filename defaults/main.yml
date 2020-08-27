@@ -1,5 +1,6 @@
 ---
-k14_app: metallb
-k14_helm_server: https://charts.bitnami.com/bitnami metallb
-# k14_helm_repo: https://github.com/bitnami/charts
-# k14_helm_path: bitnami/metallb
+k14:
+  app: metallb
+  helm_server: https://charts.bitnami.com/bitnami metallb
+  # helm_repo: https://github.com/bitnami/charts
+  # helm_path: bitnami/metallb
